@@ -12,7 +12,6 @@ env:
   PythonVersion: 3.8
   DockerImageName: todolistapp
 
-
 jobs:
   python-ci:
     runs-on: ubuntu-latest
