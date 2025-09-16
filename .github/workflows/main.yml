@@ -73,8 +73,7 @@ jobs:
         with:
           context: ./src
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DockerImageName }}:{{ github.sha }}
-
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DockerImageName }}:${{ github.sha }}
 
 
 
